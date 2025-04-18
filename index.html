@@ -9,50 +9,50 @@
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background-color: #121212;
-      color: #f5f5f5;
+      background-color: #1B1B1F;
+      color: #E4E4E7;
     }
 
     header {
       text-align: center;
       padding: 3rem 1rem;
-      background: #1a1a1a;
+      background: #222327;
     }
 
     header h1 {
-      color: #D4AF37;
-      font-size: 2.5rem;
+      color: #E8AA14;
+      font-size: 2.8rem;
       margin-bottom: 0.5rem;
     }
 
     header p {
       font-size: 1.1rem;
-      color: #aaa;
+      color: #CFCFD2;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
 
     .section-title {
-      font-size: 1.5rem;
-      color: #2E8B57;
-      border-bottom: 2px solid #2E8B57;
+      font-size: 1.6rem;
+      color: #82D173;
+      border-bottom: 2px solid #82D173;
       padding-bottom: 0.3rem;
       margin-bottom: 1rem;
     }
 
     .projects, .skills {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 1.5rem;
     }
 
     .card {
-      background-color: #1e1e1e;
-      border: 1px solid #2E8B57;
+      background-color: #29292E;
+      border: 1px solid #333;
       border-radius: 12px;
       padding: 1.2rem;
       transition: transform 0.2s ease-in-out;
@@ -63,14 +63,14 @@
     }
 
     .card h3 {
-      color: #D4AF37;
+      color: #E8AA14;
     }
 
     .resume-btn {
       display: inline-block;
       margin-top: 2rem;
-      background-color: #2E8B57;
-      color: #fff;
+      background-color: #82D173;
+      color: #111;
       padding: 0.8rem 1.5rem;
       border: none;
       border-radius: 8px;
@@ -80,7 +80,7 @@
     }
 
     .resume-btn:hover {
-      background-color: #3cb371;
+      background-color: #6AB36D;
     }
 
     footer {
@@ -97,6 +97,7 @@
   <header>
     <h1>Saman Saeed</h1>
     <p>Software Engineer | MERN Stack Developer | Blockchain Enthusiast</p>
+    <p>Islamabad, Pakistan | +92 336 0435000 | samansaeed2306@gmail.com | <a href="#" style="color:#82D173;">MyLinkedIn</a></p>
     <a href="Saman_Saeed_Resume.pdf" download class="resume-btn">Download Resume</a>
   </header>
 
@@ -105,16 +106,33 @@
       <h2 class="section-title">Projects</h2>
       <div class="projects">
         <div class="card">
-          <h3>VR Dental Training Simulation</h3>
-          <p>Oculus VR app simulating real dental procedures. Features include instant feedback, multiplayer and reporting.</p>
+          <h3>Video and Image Annotator</h3>
+          <p>Built a responsive annotator using JavaScript, Node.js, Express.js, and MongoDB. Dockerized deployment and versioned with GitHub.</p>
+          <p><a href="https://github.com/samansaeed/annotator" target="_blank" style="color:#82D173">GitHub Repo</a> | <a href="https://annotator-demo.vercel.app" target="_blank" style="color:#82D173">Live Website</a></p>
         </div>
         <div class="card">
-          <h3>Video & Image Annotator</h3>
-          <p>Built with JS, Node.js, and MongoDB. Supports visual annotations with a responsive interface and Docker deployment.</p>
+          <h3>VR Dental Training Simulation</h3>
+          <p>Oculus VR app in Unity for dental procedures, providing feedback and multiplayer support. Tools: Unity3D, C#, Firebase.</p>
+        </div>
+        <div class="card">
+          <h3>SuiteCRM Customization</h3>
+          <p>Customized modules, created dynamic reports, and improved performance for SuiteCRM system in production environment.</p>
         </div>
         <div class="card">
           <h3>Appointment System</h3>
-          <p>Microservices architecture with Docker, CI/CD via GitHub Actions, and deployed on AWS with Kubernetes.</p>
+          <p>Microservices architecture with Docker, CI/CD (GitHub Actions), deployed using Kubernetes on AWS.</p>
+        </div>
+        <div class="card">
+          <h3>ML CI/CD Pipeline</h3>
+          <p>End-to-end CI/CD pipeline using Jenkins, GitHub Actions and Docker for a machine learning model deployment.</p>
+        </div>
+        <div class="card">
+          <h3>Reservation System</h3>
+          <p>MERN stack reservation platform with vendor/admin/client roles. Deployed using Docker to AWS EC2.</p>
+        </div>
+        <div class="card">
+          <h3>Chat DApp</h3>
+          <p>Decentralized chat app on Ethereum using Web3, Ganache, Solidity, and React for blockchain transparency.</p>
         </div>
       </div>
     </section>
@@ -124,22 +142,22 @@
       <div class="skills">
         <div class="card">
           <h3>Languages & Frameworks</h3>
-          <p>JavaScript, Node.js, React, Python, C#, Solidity</p>
+          <p>JavaScript, Node.js, React, Python, C#, Solidity, PHP</p>
         </div>
         <div class="card">
-          <h3>DevOps & Tools</h3>
-          <p>Docker, GitHub Actions, Jenkins, Kubernetes, AWS</p>
+          <h3>Tools & DevOps</h3>
+          <p>Docker, GitHub Actions, Jenkins, Kubernetes, VMware</p>
         </div>
         <div class="card">
-          <h3>Databases & Platforms</h3>
-          <p>MongoDB, MySQL, Firebase, Web3, Linux</p>
+          <h3>Platforms & Databases</h3>
+          <p>MongoDB, MySQL, Firebase, AWS, Linux</p>
         </div>
       </div>
     </section>
   </div>
 
   <footer>
-    &copy; 2025 Saman Saeed · Built with ❤️ in Pakistan
+    &copy; 2025 Saman Saeed — Built with love in Pakistan
   </footer>
 
 </body>
